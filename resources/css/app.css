@@ -2,13 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
-
 @layer base {
-    :root {
-        --font-sans: 'Instrument Sans', ui-sans-serif, system-ui;
-    }
+  :root {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui;
+  }
 }
