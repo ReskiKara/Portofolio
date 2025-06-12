@@ -13,6 +13,7 @@
         }
     ],
     "buildCommand": "chmod +x vercel-build.sh && ./vercel-build.sh",
+    "installCommand": "npm install --legacy-peer-deps",
     "env": {
         "APP_NAME": "Laravel",
         "APP_ENV": "production",
@@ -40,6 +41,7 @@
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp/views",
         
-        "VITE_APP_NAME": "Laravel"
+        "VITE_APP_NAME": "Laravel",
+        "NODE_VERSION": "18.x"
     }
 } 
