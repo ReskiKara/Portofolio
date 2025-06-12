@@ -1,8 +1,8 @@
 {
     "version": 2,
-    "framework": null,
+    "framework": "laravel",
     "functions": {
-        "api/*.php": {
+        "api/index.php": {
             "runtime": "vercel-php@0.6.0"
         }
     },
@@ -12,36 +12,21 @@
             "dest": "/api/index.php"
         }
     ],
-    "buildCommand": "chmod +x vercel-build.sh && ./vercel-build.sh",
-    "installCommand": "npm install --legacy-peer-deps",
     "env": {
-        "APP_NAME": "Laravel",
         "APP_ENV": "production",
-        "APP_KEY": "base64:Esm4bK2DEXXp2G8mAEq1DVdBEH2tbhBmr1KOTYDWm/Q=",
         "APP_DEBUG": "false",
-        "APP_URL": "https://karaportfolio.vercel.app",
-
-        "LOG_CHANNEL": "stderr",
-        "LOG_LEVEL": "debug",
-
-        "DB_CONNECTION": "sqlite",
-        "DB_DATABASE": "/tmp/database.sqlite",
-
-        "BROADCAST_DRIVER": "log",
-        "CACHE_DRIVER": "array",
-        "FILESYSTEM_DISK": "local",
-        "QUEUE_CONNECTION": "sync",
-        "SESSION_DRIVER": "cookie",
-        "SESSION_LIFETIME": "120",
-
+        "APP_URL": "https://your-project-url.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "APP_SERVICES_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp",
+        "CACHE_DRIVER": "array",
+        "LOG_CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie",
         "VIEW_COMPILED_PATH": "/tmp/views",
-        
-        "VITE_APP_NAME": "Laravel",
-        "NODE_VERSION": "18.x"
+        "SSR_TEMP_PATH": "/tmp/ssr",
+        "NODE_PATH": "node"
     }
 } 
