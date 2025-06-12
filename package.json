@@ -1,8 +1,6 @@
 {
     "private": true,
-    "type": "module",
     "scripts": {
-        "dev": "php artisan serve",
-        "build": "echo 'No build step needed'"
+        "postinstall": "echo 'No build required'"
     }
 }
