@@ -15,5 +15,8 @@ export default defineConfig({
         rollupOptions: {
             input: ['resources/css/app.css', 'resources/js/app.js']
         }
+    },
+    optimizeDeps: {
+        include: ['tailwindcss', 'postcss', 'autoprefixer']
     }
 }); 
