@@ -1,0 +1,17 @@
+/vendor
+/node_modules
+.env
+.env.*
+*.log
+.git
+.gitignore
+.idea
+.vscode
+README.md
+composer.lock
+package.json
+package-lock.json
+yarn.lock
+vite.config.js
+tailwind.config.js
+postcss.config.js 
