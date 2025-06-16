@@ -43,5 +43,6 @@ Thumbs.db
 *.log
 .git
 .gitignore
+.gitattributes
 README.md
 composer.lock 

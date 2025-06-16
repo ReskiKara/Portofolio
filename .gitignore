@@ -57,3 +57,5 @@ yarn.lock
 vite.config.js
 tailwind.config.js
 postcss.config.js
+
+.vercel

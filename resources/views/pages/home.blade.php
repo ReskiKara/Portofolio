@@ -19,7 +19,7 @@
                     👋 Halo, Saya
                 </p>
                 <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight animate-fade-in-up animation-delay-300" data-aos="fade-up" data-aos-delay="200">
-                    Reski Kara
+                     KaRa
                 </h1>
                 <div class="relative h-20 overflow-hidden">
                     <div class="absolute animate-slide-up">

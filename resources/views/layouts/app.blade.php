@@ -55,7 +55,7 @@
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="{{ route('home') }}" class="text-2xl font-bold text-[#5A827E]">
-                        Kara<span class="text-[#8DB0AB]">Code</span>
+                        Kara<span class="text-[#8DB0AB]">Dev</span>
                     </a>
                 </div>
 
